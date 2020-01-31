@@ -11,51 +11,47 @@ html, body, div, h1, h2, p, ul, li {
 
 /* Corrupted CSS below */
 /* ------------------- */
-b*** {
-    bac******d: #eaeaee;
-    ****-**mily: 'Yanone Kaffeesatz', sans-serif;
-    ***t-si*e: 24px;
-    max-*****: 600px;
-    margin: 0 ****;
-    padding: 32**;
+body {
+    background-color: #eaeaee;
+    max-width: 600px;
+    margin: 0;
+    padding: 32px;
+    font-size: 30px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 h1, h2 {
-    $#%$#^#$%#$%: 'Bangers', cursive;
+    font-family: 'bangers', cursive;
 }
 
-#h2 {
+.h2 {
     text-decoration: underline;
 }
 
 .centered {
-    text*****n: centre;
+    text-align: center;
 }
 
 .title {
-    ***t-size: 48px;
+    font-size: 60px;
 }
 
 .content {
-    ......................;
-    ...........: 5px;
-    ............: 48px;
-    ........: 20px;
+    background-color: white;
+    border: 5px;
+    margin: 48px;
+    padding: 20px;
 }
 
 .content ul {
-    margin-top: .....;
-    padding-left: .....;
+    margin-top: 20px;
+    padding-left: 20px;
 }
 
 .element {
-    list-*****-type: square;
-}
-
-.first {
-    color: #ffffff;
+    list-style-type: square;
 }
 
 .second {
-    font-weight: cold;
+    font-weight: bold;
 }

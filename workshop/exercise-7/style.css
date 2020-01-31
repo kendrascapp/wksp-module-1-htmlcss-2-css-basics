@@ -10,3 +10,45 @@ html, body, div, h1, h2, p, ul, li {
 }
 
 /* ADD CSS BELOW */
+
+body {
+	margin: 30px
+}
+
+h1, h2 {
+	font-family: 'bangers';
+	font-size: 35px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 32px;
+}
+
+h2 {
+	font-size: 30;
+	vertical-align: baseline;
+}
+
+.row {
+	list-style-type: none;
+	display: flex;
+}
+
+.col {
+	list-style: none;
+	border: 1px;
+	border-style: dashed;
+	border-color: dimgray;
+	padding: 10px;
+	background-color: lightgrey;
+	margin: 30px;
+}
+
+.images {
+	display: flex;
+}
+.image {
+	height: 200px;
+}
